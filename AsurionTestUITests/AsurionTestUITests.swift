@@ -22,22 +22,39 @@ class AsurionTestUITests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
-    func testExample() throws {
-        // UI tests must launch the application that they test.
+    
+    func testAlertMessages() {
+        
         let app = XCUIApplication()
         app.launch()
-
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let officeHoursElement = app.tables.otherElements["Office Hours: M-F 9:00 - 18:00"]
+        officeHoursElement.buttons["Chat"].press(forDuration: 3)
+        
+        let okButton = app.alerts["Message"].scrollViews.otherElements.buttons["Ok"]
+        okButton.tap()
+        officeHoursElement.buttons["Call"].tap()
+        okButton.tap()
+        
     }
-
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTOSSignpostMetric.applicationLaunch]) {
-                XCUIApplication().launch()
-            }
-        }
+    
+    func testLoadAndNavigation() {
+        
+        let app = XCUIApplication()
+        app.launch()
+        
+        let downloadCell = app.tables.staticTexts["Ferret"]
+        expectation(for: NSPredicate(format: "exists == 1"), evaluatedWith: downloadCell, handler: nil)
+        waitForExpectations(timeout: 5, handler: nil)
+        
+        let tablesQuery = app.tables
+        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Ferret"]/*[[".cells.staticTexts[\"Ferret\"]",".staticTexts[\"Ferret\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        
+        let downloadWeb = app.webViews.staticTexts["Ferret"]
+        expectation(for: NSPredicate(format: "exists == 1"), evaluatedWith: downloadWeb, handler: nil)
+        waitForExpectations(timeout: 5, handler: nil)
+        
+        app.navigationBars["Ferret"].buttons["Home"].tap()
+        
     }
 }

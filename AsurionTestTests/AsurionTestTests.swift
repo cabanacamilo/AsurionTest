@@ -10,25 +10,29 @@ import XCTest
 @testable import AsurionTest
 
 class AsurionTestTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    
+    func testLoadConfigJson() {
+        let manager = SettingsManager()
+        manager.loadData { (result) in
+            switch result {
+            case .failure(let error):
+                XCTAssertEqual(error.localizedDescription, "cannotFindData")
+            case .success(let settings):
+                XCTAssertEqual(settings.workHours, "M-F 9:00 - 18:00")
+            }
         }
     }
-
+    
+    func testLoadPetsJson() {
+        let manager = PetsManager()
+        manager.loadData { (result) in
+            switch result {
+            case .failure(let error):
+                XCTAssertEqual(error.localizedDescription, "cannotFindData")
+            case .success(let pets):
+                XCTAssertEqual(pets[3].title, "Goldfish")
+                XCTAssertEqual(pets[0].title, "Cat")
+            }
+        }
+    }
 }

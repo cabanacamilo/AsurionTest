@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FBEF18F24B57F0E00CD4B12 /* FitTableViewHeaderSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBEF18E24B57F0E00CD4B12 /* FitTableViewHeaderSize.swift */; };
+		2FBEF19224B58C1E00CD4B12 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBEF19124B58C1E00CD4B12 /* Alert.swift */; };
+		2FBEF19424B58C7C00CD4B12 /* LoadCacheImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBEF19324B58C7C00CD4B12 /* LoadCacheImage.swift */; };
+		2FBEF19624B59C3500CD4B12 /* PetInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBEF19524B59C3500CD4B12 /* PetInformationViewController.swift */; };
 		2FE65FC624B547310040CEA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE65FC524B547310040CEA2 /* AppDelegate.swift */; };
 		2FE65FC824B547310040CEA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE65FC724B547310040CEA2 /* SceneDelegate.swift */; };
-		2FE65FCA24B547310040CEA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE65FC924B547310040CEA2 /* ViewController.swift */; };
-		2FE65FCD24B547310040CEA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE65FCB24B547310040CEA2 /* Main.storyboard */; };
+		2FE65FCA24B547310040CEA2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE65FC924B547310040CEA2 /* HomeViewController.swift */; };
 		2FE65FCF24B547330040CEA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE65FCE24B547330040CEA2 /* Assets.xcassets */; };
 		2FE65FD224B547330040CEA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE65FD024B547330040CEA2 /* LaunchScreen.storyboard */; };
 		2FE65FDD24B547330040CEA2 /* AsurionTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE65FDC24B547330040CEA2 /* AsurionTestTests.swift */; };
 		2FE65FE824B547330040CEA2 /* AsurionTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE65FE724B547330040CEA2 /* AsurionTestUITests.swift */; };
+		2FE65FF724B54BEA0040CEA2 /* PetsJson.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2FE65FF624B54BEA0040CEA2 /* PetsJson.txt */; };
+		2FE65FFB24B54DE50040CEA2 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE65FFA24B54DE50040CEA2 /* Pet.swift */; };
+		2FE65FFE24B54E9E0040CEA2 /* PetsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE65FFD24B54E9E0040CEA2 /* PetsManager.swift */; };
+		2FE6600024B5533D0040CEA2 /* LoadingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE65FFF24B5533D0040CEA2 /* LoadingError.swift */; };
+		2FE6600224B565BC0040CEA2 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6600124B565BC0040CEA2 /* SettingsManager.swift */; };
+		2FE6600424B565CD0040CEA2 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6600324B565CD0040CEA2 /* Settings.swift */; };
+		2FE6600624B566D10040CEA2 /* ConfigJson.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2FE6600524B566D10040CEA2 /* ConfigJson.txt */; };
+		2FE6600924B571980040CEA2 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6600824B571980040CEA2 /* HomeTableViewCell.swift */; };
+		2FE6600B24B573550040CEA2 /* HomeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6600A24B573550040CEA2 /* HomeHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FBEF18E24B57F0E00CD4B12 /* FitTableViewHeaderSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitTableViewHeaderSize.swift; sourceTree = "<group>"; };
+		2FBEF19124B58C1E00CD4B12 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		2FBEF19324B58C7C00CD4B12 /* LoadCacheImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadCacheImage.swift; sourceTree = "<group>"; };
+		2FBEF19524B59C3500CD4B12 /* PetInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetInformationViewController.swift; sourceTree = "<group>"; };
 		2FE65FC224B547310040CEA2 /* AsurionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsurionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE65FC524B547310040CEA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FE65FC724B547310040CEA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2FE65FC924B547310040CEA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2FE65FCC24B547310040CEA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FE65FC924B547310040CEA2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2FE65FCE24B547330040CEA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FE65FD124B547330040CEA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FE65FD324B547330040CEA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +64,15 @@
 		2FE65FE324B547330040CEA2 /* AsurionTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsurionTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE65FE724B547330040CEA2 /* AsurionTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsurionTestUITests.swift; sourceTree = "<group>"; };
 		2FE65FE924B547330040CEA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FE65FF624B54BEA0040CEA2 /* PetsJson.txt */ = {isa = PBXFileReference; explicitFileType = text.json; fileEncoding = 4; path = PetsJson.txt; sourceTree = "<group>"; };
+		2FE65FFA24B54DE50040CEA2 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		2FE65FFD24B54E9E0040CEA2 /* PetsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsManager.swift; sourceTree = "<group>"; };
+		2FE65FFF24B5533D0040CEA2 /* LoadingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingError.swift; sourceTree = "<group>"; };
+		2FE6600124B565BC0040CEA2 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		2FE6600324B565CD0040CEA2 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		2FE6600524B566D10040CEA2 /* ConfigJson.txt */ = {isa = PBXFileReference; explicitFileType = text.json; fileEncoding = 4; path = ConfigJson.txt; sourceTree = "<group>"; };
+		2FE6600824B571980040CEA2 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		2FE6600A24B573550040CEA2 /* HomeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +100,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FBEF18D24B57EDF00CD4B12 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2FBEF18E24B57F0E00CD4B12 /* FitTableViewHeaderSize.swift */,
+				2FBEF19324B58C7C00CD4B12 /* LoadCacheImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2FBEF19024B58C0C00CD4B12 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2FBEF19124B58C1E00CD4B12 /* Alert.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		2FE65FB924B547310040CEA2 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +140,13 @@
 		2FE65FC424B547310040CEA2 /* AsurionTest */ = {
 			isa = PBXGroup;
 			children = (
-				2FE65FC524B547310040CEA2 /* AppDelegate.swift */,
-				2FE65FC724B547310040CEA2 /* SceneDelegate.swift */,
-				2FE65FC924B547310040CEA2 /* ViewController.swift */,
-				2FE65FCB24B547310040CEA2 /* Main.storyboard */,
+				2FBEF19024B58C0C00CD4B12 /* Helpers */,
+				2FBEF18D24B57EDF00CD4B12 /* Extensions */,
+				2FE65FFC24B54E750040CEA2 /* Managers */,
+				2FE65FF924B54DCB0040CEA2 /* Models */,
+				2FE6600724B571830040CEA2 /* Views */,
+				2FE65FF824B54C810040CEA2 /* Controllers */,
+				2FE65FF524B54B480040CEA2 /* Resources */,
 				2FE65FCE24B547330040CEA2 /* Assets.xcassets */,
 				2FE65FD024B547330040CEA2 /* LaunchScreen.storyboard */,
 				2FE65FD324B547330040CEA2 /* Info.plist */,
@@ -126,6 +170,54 @@
 				2FE65FE924B547330040CEA2 /* Info.plist */,
 			);
 			path = AsurionTestUITests;
+			sourceTree = "<group>";
+		};
+		2FE65FF524B54B480040CEA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2FE6600524B566D10040CEA2 /* ConfigJson.txt */,
+				2FE65FF624B54BEA0040CEA2 /* PetsJson.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2FE65FF824B54C810040CEA2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2FE65FC524B547310040CEA2 /* AppDelegate.swift */,
+				2FE65FC724B547310040CEA2 /* SceneDelegate.swift */,
+				2FE65FC924B547310040CEA2 /* HomeViewController.swift */,
+				2FBEF19524B59C3500CD4B12 /* PetInformationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2FE65FF924B54DCB0040CEA2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2FE65FFA24B54DE50040CEA2 /* Pet.swift */,
+				2FE65FFF24B5533D0040CEA2 /* LoadingError.swift */,
+				2FE6600324B565CD0040CEA2 /* Settings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2FE65FFC24B54E750040CEA2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2FE65FFD24B54E9E0040CEA2 /* PetsManager.swift */,
+				2FE6600124B565BC0040CEA2 /* SettingsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2FE6600724B571830040CEA2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2FE6600824B571980040CEA2 /* HomeTableViewCell.swift */,
+				2FE6600A24B573550040CEA2 /* HomeHeader.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +324,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE6600624B566D10040CEA2 /* ConfigJson.txt in Resources */,
 				2FE65FD224B547330040CEA2 /* LaunchScreen.storyboard in Resources */,
+				2FE65FF724B54BEA0040CEA2 /* PetsJson.txt in Resources */,
 				2FE65FCF24B547330040CEA2 /* Assets.xcassets in Resources */,
-				2FE65FCD24B547310040CEA2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +352,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FE65FCA24B547310040CEA2 /* ViewController.swift in Sources */,
+				2FE65FCA24B547310040CEA2 /* HomeViewController.swift in Sources */,
+				2FE65FFB24B54DE50040CEA2 /* Pet.swift in Sources */,
+				2FBEF19424B58C7C00CD4B12 /* LoadCacheImage.swift in Sources */,
+				2FE6600424B565CD0040CEA2 /* Settings.swift in Sources */,
+				2FE6600924B571980040CEA2 /* HomeTableViewCell.swift in Sources */,
+				2FBEF18F24B57F0E00CD4B12 /* FitTableViewHeaderSize.swift in Sources */,
 				2FE65FC624B547310040CEA2 /* AppDelegate.swift in Sources */,
+				2FBEF19224B58C1E00CD4B12 /* Alert.swift in Sources */,
+				2FE6600224B565BC0040CEA2 /* SettingsManager.swift in Sources */,
+				2FE6600024B5533D0040CEA2 /* LoadingError.swift in Sources */,
+				2FE65FFE24B54E9E0040CEA2 /* PetsManager.swift in Sources */,
 				2FE65FC824B547310040CEA2 /* SceneDelegate.swift in Sources */,
+				2FE6600B24B573550040CEA2 /* HomeHeader.swift in Sources */,
+				2FBEF19624B59C3500CD4B12 /* PetInformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +401,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2FE65FCB24B547310040CEA2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2FE65FCC24B547310040CEA2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2FE65FD024B547330040CEA2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +540,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.camilocabana.AsurionTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -462,7 +558,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.camilocabana.AsurionTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
